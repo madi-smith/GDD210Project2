@@ -162,7 +162,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed57d7db2bfc40bfaafccbcddfe0175, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  train: {fileID: 339104777450881427, guid: 042afd4eae5974ba485c5e3d872efd17, type: 3}
+  train: {fileID: 3604667888150591645, guid: 02c86ae67134045139a3eab0ef21b216, type: 3}
+  obstacle: {fileID: 6456277080094124427, guid: f936ee5574cec4b80a0b56fdf3441717, type: 3}
+  obstacleTwo: {fileID: 6456277080094124427, guid: f936ee5574cec4b80a0b56fdf3441717, type: 3}
   ObstacleList: []
 --- !u!20 &519420031
 Camera:

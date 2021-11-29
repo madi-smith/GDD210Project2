@@ -5,7 +5,10 @@ using UnityEngine;
 public class move : MonoBehaviour
 {
     public GameObject train;
-    
+    public GameObject obstacle;
+    public GameObject obstacleTwo;
+
+
     public List<GameObject> ObstacleList;
   
 
@@ -30,12 +33,28 @@ public class move : MonoBehaviour
         
         if (Timer <= 0)
         {
-            Instantiate(train, new Vector3(20f, -4f, 0f), Quaternion.identity);
+            Instantiate(train, new Vector3(60f, -5f, 0f), Quaternion.identity);
 
-            Timer = 1;
+            Timer = 2;
+        }
+        TimerTwo -= 1 * Time.deltaTime;
+
+        if (TimerTwo <= 0)
+        {
+            Instantiate(obstacle, new Vector3(40f, 3f, 0f), Quaternion.identity);
+
+            TimerTwo = 6;
+        }
+        TimerThree -= 1 * Time.deltaTime;
+
+        if (TimerThree <= 0)
+        {
+            Instantiate(obstacleTwo, new Vector3(40f, 2f, 0f), Quaternion.identity);
+
+            TimerThree = 4;
         }
 
-        
+
     }
 
 

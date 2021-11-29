@@ -8,7 +8,7 @@ public class playerjump : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 2f));
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 10f));
         }
     }
 }

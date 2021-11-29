@@ -6,7 +6,7 @@ public class playerjump : MonoBehaviour
 {
     private void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.Space))
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 2f));
         }

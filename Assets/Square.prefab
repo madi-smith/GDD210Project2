@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4763874908173509907}
   - component: {fileID: 679549499427402636}
   - component: {fileID: 5172846644331183289}
-  - component: {fileID: 758680872411094142}
+  - component: {fileID: -6626318420232299374}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -97,16 +97,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FlySpeed: 50
---- !u!65 &758680872411094142
-BoxCollider:
+--- !u!61 &-6626318420232299374
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339104777450881427}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.9999999, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

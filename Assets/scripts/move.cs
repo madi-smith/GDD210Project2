@@ -49,9 +49,9 @@ public class move : MonoBehaviour
 
         if (TimerThree <= 0)
         {
-            Instantiate(obstacleTwo, new Vector3(40f, 2f, 0f), Quaternion.identity);
+            Instantiate(obstacleTwo, new Vector3(25f, 0f, 0f), Quaternion.identity);
 
-            TimerThree = 4;
+            TimerThree = 1;
         }
 
 

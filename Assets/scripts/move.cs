@@ -7,7 +7,7 @@ public class move : MonoBehaviour
     public GameObject train;
     public GameObject obstacle;
     public GameObject obstacleTwo;
-
+    public GameObject obstacleThree;
 
     public List<GameObject> ObstacleList;
   
@@ -15,7 +15,7 @@ public class move : MonoBehaviour
     private float Timer = 1;
     private float TimerTwo = 1;
     private float TimerThree = 1;
-    private float TImerFour = 1;
+    private float TimerFour = 1;
 
 
 
@@ -52,6 +52,13 @@ public class move : MonoBehaviour
             Instantiate(obstacleTwo, new Vector3(25f, 0f, 0f), Quaternion.identity);
 
             TimerThree = 1;
+        }
+        TimerFour -= 1 * Time.deltaTime;
+        if (TimerFour <= 0)
+        {
+            Instantiate(obstacleThree, new Vector3(25f, 0f, 0f), Quaternion.identity);
+
+            TimerFour = 1;
         }
 
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerCombat : MonoBehaviour
 {
+    private float health = 10;
     
 
     // Update is called once per frame
@@ -11,7 +12,7 @@ public class playerCombat : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-
+            health -= health;
         }
     }
 }

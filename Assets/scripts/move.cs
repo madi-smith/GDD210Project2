@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class move : MonoBehaviour
 {
     public GameObject train;
@@ -16,6 +17,7 @@ public class move : MonoBehaviour
     private float TimerTwo = 1;
     private float TimerThree = 1;
     private float TimerFour = 1;
+   
 
 
 
@@ -61,8 +63,9 @@ public class move : MonoBehaviour
             TimerFour = 1;
         }
 
-
+        
     }
+    
 
 
 }

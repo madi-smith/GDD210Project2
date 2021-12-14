@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6948405154532091948}
   - component: {fileID: -3083121055497860507}
   - component: {fileID: 275168444549301254}
+  - component: {fileID: -7715081001906546863}
   m_Layer: 0
   m_Name: birdobstacle
   m_TagString: Untagged
@@ -287,3 +288,22 @@ PolygonCollider2D:
       - {x: 1.64, y: -1.25}
       - {x: 1.62, y: -1.29}
       - {x: 1.63, y: -1.29}
+--- !u!95 &-7715081001906546863
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8842511056810542938}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c9f8c24f7a174e50ba4f8a796fd10ee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

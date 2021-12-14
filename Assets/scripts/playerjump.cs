@@ -2,13 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerjump : MonoBehaviour
+public class Playerjump : MonoBehaviour
 {
+    public Rigidbody2D rb;
+    public float jump = 10f;
     private void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        //Jump
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 10f));
+            //rb.AddForce(new Vector2(0, 2f) * jump);
+            rb.velocity = new Vector2(0, 2f) * jump;
+            Debug.Log("this works");
         }
+
     }
+
 }

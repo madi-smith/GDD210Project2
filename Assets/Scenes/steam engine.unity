@@ -428,9 +428,9 @@ GameObject:
   - component: {fileID: 865435126}
   - component: {fileID: 865435125}
   - component: {fileID: 865435124}
-  - component: {fileID: 865435127}
   - component: {fileID: 865435129}
   - component: {fileID: 865435128}
+  - component: {fileID: 865435130}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -524,18 +524,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &865435127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865435123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b4336701d0054accb515706d226bb7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &865435128
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -604,3 +592,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &865435130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865435123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4814b9e385b243fa9233919a8611c3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 865435124}
+  jump: 10
